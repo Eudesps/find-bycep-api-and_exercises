@@ -17,5 +17,6 @@ public class Ex008 {
         }else{
             System.out.printf("A palavra %s não está presente no texto.", palavra);
         }
+        scanner.close();
     }
 }
